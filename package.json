@@ -1,0 +1,20 @@
+{
+  "name": "ov-task-channels-plugin",
+  "version": "47.0.66",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@picmo/popup-picker": "^5.7.6",
+    "@twilio/flex-plugin-scripts": "6.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "url-join": "^5.0.0"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "2.0.0-beta.3",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4"
+  }
+}

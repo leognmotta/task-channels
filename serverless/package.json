@@ -1,0 +1,27 @@
+{
+  "name": "ov-task-channels-plugin-functions",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run --env"
+  },
+  "devDependencies": {
+    "twilio-run": "^3.4.2"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "coralogix-logger": "^1.1.28",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "twilio": "^3.56",
+    "@twilio/runtime-handler": "1.2.3",
+    "@twilio-labs/serverless-runtime-types": "^1.1",
+    "lodash": "^4.17.21",
+    "randomstring": "^1.2.2",
+    "twilio-flex-token-validator": "^1.5.4"
+  }
+}
